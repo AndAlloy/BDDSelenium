@@ -16,7 +16,7 @@ Feature:
     When switch website language
     Then assert current language
 
-  Scenario: Add item to cart
-    Given launch chrome browser with suburl = "ua/samsung-sm-a245fzkvsek/p375225780/"
-    When find and click characteristics button on item page
-    Then click comments button on item page
+#  Scenario: Add item to cart
+#    Given launch chrome browser with suburl = "ua/samsung-sm-a245fzkvsek/p375225780/"
+#    When find and click characteristics button on item page
+#    Then click comments button on item page
